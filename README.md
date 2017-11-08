@@ -14,7 +14,7 @@ git config --global color.ui "auto"
 git clone https://github.com/peng19880925/aws_setup.git
 ```
 
-Run the set-up file
+Run the setup file (this is for ubuntu; for rhel, run setup_rhel.sh)
 ```
 sh ~/aws_setup/setup.sh
 ```
