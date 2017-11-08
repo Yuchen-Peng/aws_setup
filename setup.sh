@@ -13,3 +13,6 @@ bash Anaconda3-4.3.0-Linux-x86_64.sh
 
 source ~/.bashrc
 
+sudo apt-get install python-pip python-dev build-essential 
+sudo pip install --upgrade pip 
+sudo pip install --upgrade virtualenv 
