@@ -1,5 +1,14 @@
 # install the necessary packages for modeling; including xgboost, sklearn, matplotlib, seaborn, tensorflow, and pymc3
 
+sudo apt-get install g++ gfortran
+sudo apt-get install python-dev python-numpy python-scipy python-matplotlib python-pandas
+sudo apt-get install libatlas-base-dev
+sudo apt-get install build-essential
+git clone --recursive https://github.com/dmlc/xgboost
+cd xgboost; make -j4
+cd python-package/
+python setup.py install -user
+
 pip install scikit-learn --upgrade
 conda install matplotlib
 pip install seaborn --upgrade
